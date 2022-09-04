@@ -1,0 +1,693 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: sans-serif;
+    background-color: rgb(149, 18, 18);
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 5px;
+}
+.header-left{
+    width: 20%;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.header-left span:nth-child(2){
+    font-size: 20px;
+}
+.header-left span:nth-child(3){
+    font-size: 12px;
+}
+.header-left
+img{
+    width: 75px;
+    margin-top: 5px;
+}
+.header-right{
+    width: 80%;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.header-right span{
+    font-weight: bold;
+}
+.header-right button{
+    padding: 20px 40px 20px 40px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.dish{
+    width: 100%;
+    height: 470px;
+    display: flex;
+    color: white;
+}
+.dish-text{
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.dish-text .text{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.text h1{
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+}
+.text p{
+    text-align: justify;
+}
+.text .the-button{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.text button:nth-child(1){
+    padding: 9px;
+    background-color: orange;
+    border: none;
+    color: white;
+}
+.text button:nth-child(2){
+    padding: 15px 30px 15px 30px ;
+    background-color: rgb(223, 5, 5);
+    border: none;
+    color: white;
+}
+.dish-pic{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dish-pic
+img{
+    width: 440px;
+}
+.menu{
+    width: 100%;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+}
+.top-menu{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-menu h1{
+    font-size: 50px;
+    color: white;
+}
+.our-menu{
+    width: 100%;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all-menu{
+    width: 68%;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(173, 8, 8);
+}
+.the-menu{
+    width: 100%;
+    height: 92px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.the-menu .name-food{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+.the-menu .describe{
+    text-align: justify;
+}
+.the-menu .icons{
+    width: 8%;
+    height: 92px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.icons i{
+    font-size: 18px;
+}
+.the-menu .describe{
+    width: 40%;
+}
+.the-menu .deliver{
+    width: 10%;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(205, 10, 10);
+}
+.deliver i{
+    font-size: 30px;
+}
+.the-menu:hover{
+    background-color: white;
+    color: black;
+}
+.the-menu .deliver:hover{
+    background-color: orange;
+    color: white;
+}
+.categories{
+    width: 100%;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.cate{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.cate h1{
+    font-size: 50px;
+}
+.cate-pic{
+    width: 87%;
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.picture{
+    width: 46%;
+    height: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 14px solid white;
+    border-radius: 10px;
+}
+.picture:nth-child(1){
+    background: url(../pasta.jpg) no-repeat;
+    background-size: cover;
+}
+.picture:nth-child(2){
+    background: url(../salad.jpg) no-repeat;
+    background-size: cover;
+}
+.picture h1{
+    padding-left: 20px;
+    color: white;
+}
+.product{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.prud{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.prud h1{
+    font-size: 50px;
+    color: white;
+}
+.my-pro{
+    width: 90%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.each-pro{
+    width: 22%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: 3px solid white;
+    background-color: rgb(205, 10, 10);
+}
+.pro-pic{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.pro-pic img{
+    width: 245px;
+}
+.stars{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.stars h4{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.stars img{
+    width: 120px;
+}
+.cost{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.cost span{
+    margin-left: 15px;
+}
+.deliv{
+    width: 24%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 0px 0px 0px;
+    background-color: orange;
+}
+.dish-two{
+    width: 100%;
+    height: 470px;
+    display: flex;
+    color: white;
+}
+.dish-pic2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dish-pic2
+img{
+    width: 440px;
+}
+.dish-text2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.dish-text2 .text2{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.text2 h1{
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+}
+.text2 p{
+    text-align: justify;
+}
+.text2 .the-button2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.text2 button:nth-child(1){
+    padding: 9px;
+    background-color: orange;
+    border: none;
+    color: white;
+}
+.text2 button:nth-child(2){
+    padding: 15px 30px 15px 30px ;
+    background-color: rgb(223, 5, 5);
+    border: none;
+    color: white;
+}
+.service{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.time{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.time h1{
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.the-time{
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.the-time span{
+    font-size: 19px;
+    font-weight: bold;
+    color: red;
+}
+.tim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tim span:nth-child(2){
+    color: orange;
+}
+.the-foot{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 40px;
+}
+.footer{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-left{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.footer-left span:nth-child(2){
+    font-size: 20px;
+}
+.footer-left span:nth-child(3){
+    font-size: 12px;
+}
+.footer-left
+img{
+    width: 95px;
+    margin-top: 5px;
+}
+.footer-mid{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.footer-mid span{
+    font-weight: bold;
+}
+.footer-right{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+.footer-right h3{
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 5px;
+    color: white;
+}
+.butt{
+    display: flex;
+}
+.butt input{
+    padding: 10px;
+}
+.butt button{
+    background-color: orange;
+    border: none;
+}
+@media (max-width: 900px){
+    .header-right button{
+    padding: 10px 30px 10px 30px;
+    }
+    .dish-text{
+        width: 50%;
+    }
+    .dish-pic{
+        width: 50%;
+    }
+    .dish-pic img{
+        width: 300px;
+    }
+    .dish-text2{
+        width: 50%;
+    }
+    .dish-pic2 img{
+        width: 300px;
+    }
+    .dish-pic2{
+        width: 50%;
+    }
+    .categories{
+        height: 660px;
+    }
+   .cate-pic{
+        height: 560px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+   }
+        .picture{
+        width: 100%;
+        height: 240px;
+   }
+   .my-pro{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+   }
+   .each-pro:nth-child(1){
+        display: none;
+   }
+   .each-pro:nth-child(2){
+        display: none;
+   }
+   .each-pro:nth-child(3){
+        width: 47%;
+   }
+   .each-pro:nth-child(4){
+        width: 47%;
+   }
+   .all-menu{
+        width: 90%;
+   }
+   .time{
+        width: 60%;
+        align-items: center;
+   }
+   .footer{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+   }
+   .footer-right input{
+        width: 50%;
+   }
+}
+@media(max-width: 500px){
+    .header{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .header-left{
+        width: 100%;
+        height: 100px;
+    }
+    .header-right{
+        width: 100%;
+        height: 50px;
+    }
+    .header-right span{
+        font-size: 8px;
+    }
+    .dish{
+        width: 100%;
+        height: 650px;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 0;
+    }
+    .dish-text{
+        width: 100%;
+        height: 450px;
+        justify-content: center;
+    }  
+    .dish-text .text{
+        width: 90%;
+    }
+    .dish-pic{
+        width: 100%;
+        height: 200px;
+    }
+    .dish-pic img{
+        width: 300px;
+    }
+    .dish-two{
+        height: 600px;
+        flex-direction: column;
+    }
+    .dish-text2{
+        width: 100%;
+        height: 400px;
+        justify-content: center;
+    }
+    .dish-text2 .text2{
+        width: 90%;
+    }
+    .dish-pic2{
+        width: 100%;
+    }
+    .dish-pic2 img{
+        width: 300px;
+    }
+    .categories{
+        height: 330px;
+    }
+    .cate-pic{
+        height: 230px;
+    }
+    .picture:nth-child(1){
+        width: 100%;
+        height: 230px;
+    }
+    .picture:nth-child(2){
+        display: none;
+    }
+    .my-pro{
+        width: 90%;
+    }
+    .each-pro:nth-child(1){
+        display: none;
+    }
+    .each-pro:nth-child(2){
+        display: none;
+    }
+    .each-pro:nth-child(3){
+        display: none;
+    }
+    .each-pro:nth-child(4){
+        width: 100%;
+    }
+    .all-menu{
+        width: 90%;
+    }
+    .the-menu .icons{
+        display: none;
+    }
+    .the-menu .describe{
+        display: none;
+    }
+    .the-menu .name-food{
+        width: 80%;
+    }
+    .the-menu .deliver{
+        width: 20%;
+    }
+    .service{
+        height: 100px;
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    .time{
+        width: 75%;
+        align-items: center;
+    }
+    .time h1{
+        font-size: 24px;
+    }
+    .the-time span{
+        font-size: 12px;
+    }
+    .the-foot{
+        height: 250px;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    .footer{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .footer-left, .footer-mid, .footer-right{
+        width: 90%;
+    }
+    .footer-mid span{
+        font-size: 12px;
+    }
+    .footer-right{
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+    }
+    .butt{
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-right h3{
+        font-size: 15px;
+    }
+    .footer-right input{
+        padding: 6px;
+    }
+}
